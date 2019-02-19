@@ -1,1 +1,17 @@
-
+{
+  "posts": [
+    { "id": 1, "Name": "Post 1" },
+    { "id": 2, "Surname": "Post 2" },
+	{ "id": 3, "Phone": "Post 3" },
+	
+    { "id": 4, "address": "Post 4" }
+	{ "id": 4, "email": "Post 5" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
