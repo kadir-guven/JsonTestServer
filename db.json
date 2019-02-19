@@ -1,12 +1,43 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "accounts": [
+    {
+      "id": 1,
+      "login": "500351"
+    },
+    {
+      "id": 2,
+      "login": "500352"
+    },
+    {
+      "id": 3,
+      "login": "500353"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "deposits": [
+    {
+      "id": 1,
+      "comment": "Dividend",
+      "ticketId": 200,
+      "platform": "Server1"
+    },
+    {
+      "id": 2,
+      "comment": "First Deposit",
+      "ticketId": 941,
+      "platform": "Server5"
+    },
+    {
+      "id": 3,
+      "comment": "First Deposit",
+      "ticketId": 204,
+      "platform": "Server1"
+    },
+    {
+      "id": 4,
+      "comment": "Bonus",
+      "ticketId": 209,
+      "platform": "Server1"
+    }
   ],
   "profile": {
     "name": "typicode"
